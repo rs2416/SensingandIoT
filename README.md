@@ -25,7 +25,7 @@ The `data_collection` folder contains example raw files collected, as well as th
 
 > * **Web_Driver.py**       Collects of GPS and mobile data using a selenium webdriver. Data is collected from the last 24 hours from FollowMee.com.   
 > * **Upload_GPS.py**        Uploads the GPS and mobile data CSV using the Google Sheets API. 
-> * **CalendarData.py**     Collects calendar events for the next 15 hours using Google Calendar API and then pushes events to Google Sheets, using the API. 
+> * **CalendarAPI.py**     Collects calendar events for the next 15 hours using Google Calendar API and then pushes events to Google Sheets, using the API. 
 > * **TracksExample.csv**   Final raw data file of GPS and mobile data for the 15 days of data collection. Longditude and Latitude was removed.
 > * **CalendarData.csv**    Final raw data file of calendar data for the 15 days of data collection. Summary of events have been removed.
 > * **EDA.csv**             Example sweat response data. 
