@@ -41,7 +41,7 @@ The `data_analysis` folder contains folders for the 5 days of anxiety inducing e
 
 > * **event/data_cleaning.ipynb**  Notebook used to clean and label data for each anxiety inducing event.
 > * **data_analysis.ipynb**  Notebook used to perform data analysis, as well as training of 7 predictive models and evaluation of these models.
-> * **Figures**  Figure outputs from the data_analysis notebook.
+> * **Figures**  Folder with figure outputs from the data_analysis notebook.
 
 **Dependencies**: numpy, pandas, matplotlib, sklearn, seaborn and scipy.
 
