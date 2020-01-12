@@ -30,7 +30,7 @@ The `data_collection` folder contains example raw files collected, as well as th
 > * **CalendarData.csv**    Final raw data file of calendar data for the 15 days of data collection. Summary of events have been removed.
 > * **EDA.csv**             Example sweat response data. 
 > * **HR.csv**              Example heart rate data CSV.
-> * **Web_Driver_Demo.MP4** Recording of webdriver downloading GPS and mobile speed CSV
+> * **Web_Driver_Demo.mp4** Recording of webdriver downloading GPS and mobile speed CSV
 
 
 **Dependencies**: selenium, chromedriver.exe, webdriver-manager, os,gspread, google-api-python-client, google-auth-httplib2, google-auth-oauthlib, gspread oauth2client, datetime, pickle and pygsheets. The script files which involve API requests will not run without the API keys and credentials files. These have not been committed to GitHub.
