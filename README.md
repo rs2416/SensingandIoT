@@ -23,13 +23,15 @@ The `data_collection` folder contains example raw files collected, as well as th
 
 #### File descriptions
 
-> * **Web_Driver.py**       Collects of GPS and mobile data using a selenium webdriver. Data is collected from the last 24 hours from FollowMee.com.   
-> * **Upload_GPS.py**        Uploads the GPS and mobile data CSV using the Google Sheets API. 
+> * **Web_Driver.py**       Collects of GPS and mobile speed data using a selenium webdriver. Data is collected from the last 24 hours from FollowMee.com.   
+> * **Upload_GPS.py**        Uploads the GPS and mobile speed data CSV using the Google Sheets API. 
 > * **CalendarAPI.py**     Collects calendar events for the next 15 hours using Google Calendar API and then pushes events to Google Sheets, using the API. 
 > * **TracksExample.csv**   Final raw data file of GPS and mobile data for the 15 days of data collection. Longditude and Latitude was removed.
 > * **CalendarData.csv**    Final raw data file of calendar data for the 15 days of data collection. Summary of events have been removed.
 > * **EDA.csv**             Example sweat response data. 
 > * **HR.csv**              Example heart rate data CSV.
+> * **Web_Driver_Demo.MP4** Recording of webdriver downloading GPS and mobile speed CSV
+
 
 **Dependencies**: selenium, chromedriver.exe, webdriver-manager, os,gspread, google-api-python-client, google-auth-httplib2, google-auth-oauthlib, gspread oauth2client, datetime, pickle and pygsheets. The script files which involve API requests will not run without the API keys and credentials files. These have not been committed to GitHub.
 
