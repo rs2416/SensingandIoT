@@ -31,8 +31,7 @@ The `data_collection` folder contains example raw files collected, as well as th
 > * **EDA.csv**             Example sweat response data. 
 > * **HR.csv**              Example heart rate data CSV.
 
-**Note**: the script files which involve API requests will not run without the API keys and credentials files. These have not been committed to GitHub.
-**Dependencies**:
+**Dependencies**: selenium, chromedriver.exe, webdriver-manager, os,gspread, google-api-python-client, google-auth-httplib2, google-auth-oauthlib, gspread oauth2client, datetime, pickle and pygsheets. The script files which involve API requests will not run without the API keys and credentials files. These have not been committed to GitHub.
 
 ### 2. Internet of Things (Data Analysis and Website)
 
@@ -42,6 +41,8 @@ The `data_analysis` folder contains folders for the 5 days of anxiety inducing e
 
 > * **event/data_cleaning.ipynb**  Notebook used to clean and label data for each anxiety inducing event.
 > * **data_analysis.ipynb**  Notebook used to perform data analysis, as well as training of 7 predictive models and evaluation of these models.
+
+**Dependencies**: numpy, pandas, matplotlib, sklearn, seaborn and scipy.
 
 <p align="left">
 	<a href="https://github.com/rs2416/SensingandIoT/blob/master/data_analysis/data_analysis.ipynb" target="_blank">View the data analysis notebook</a>
