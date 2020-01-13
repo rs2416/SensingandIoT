@@ -8,6 +8,10 @@ Below is a Google Drive link to the website zip file. To view locally download t
   <br>
 </h4>
 
+<p align="left">
+	<a href="https://youtu.be/OdvbFIwX5To" target="_blank">View a video of the website</a>
+</p>
+
 ```
 $ npm install 
 $ npm run start
