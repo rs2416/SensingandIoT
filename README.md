@@ -58,7 +58,7 @@ $ npm install
 $ npm run start
 ```
 <p align="left">
-	<a href="https://youtu.be/t3fgKJWC-LY" target="_blank">View a video of the website</a>
+	<a href="https://youtu.be/OdvbFIwX5To" target="_blank">View a video of the website</a>
 </p>
 
 ### References
