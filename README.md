@@ -57,6 +57,9 @@ The `website` folder contains all the assets and React JavaScript code used to i
 $ npm install 
 $ npm run start
 ```
+<p align="left">
+	<a href="https://youtu.be/t3fgKJWC-LY" target="_blank">View a video of the website</a>
+</p>
 
 ### References
 
