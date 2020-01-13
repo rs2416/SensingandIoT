@@ -51,7 +51,7 @@ The `data_analysis` folder contains folders for the 5 days of anxiety inducing e
 	<a href="https://github.com/rs2416/SensingandIoT/blob/master/data_analysis/data_analysis.ipynb" target="_blank">View the data analysis notebook</a>
 </p>
 
-The `website` folder contains all the assets and React JavaScript code used to implement the website prototype.To view locally download folder and open command window in the folder and run the following code. 
+The `website` folder contains a Google Drive link to a zip file with all the assets and React JavaScript code used to implement the website prototype. To view locally download folder and open command window in the folder and run the following code. 
 
 ```
 $ npm install 
