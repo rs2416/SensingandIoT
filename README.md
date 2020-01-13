@@ -10,12 +10,15 @@
 
 This project is a preliminary investigation to see if it is feasible to predict social related anxiety using heart rate (HR) and sweat response (EDA) data and machine learning techniques (binary classification problem). Physiological data was collected for 2 weeks, specifically during 5 anxiety inducing events which included 3 pitches, a job interview and a staff student committee meeting. This physiological data was labelled through collection of automatically collected contextual data such as calendar data (Google Calendar API), Global Positioning System (GPS) data and mobile phone speed (Followmee.com). The data was then cleaned and split into 70% train 30% test, and various classification algorithm such as SVM, Logistic Regression and Decision Tree were used to train predictive models. These models were then evaluated for performance using 7-fold Cross Validation. A website platform was then created using React JavaScript to express the benefits of prediction of anxiety and how the prediction can facilitate self-help activities.
 
-<h4 align="left">
+<p align="left">
 	<a href="https://github.com/rs2416/SensingandIoT/blob/master/Report.pdf">Read the full report</a>
-  <br>
-  <br>
-</h4>
-
+</p>
+<p align="left">
+	<a href="https://github.com/rs2416/SensingandIoT/blob/master/data_analysis/data_analysis.ipynb" target="_blank">View the data analysis notebook</a>
+</p>
+<p align="left">
+	<a href="https://youtu.be/OdvbFIwX5To" target="_blank">View a video of the website</a>
+</p>
 
 ### 1. Sensing (Data Collection)
 
@@ -37,19 +40,16 @@ The `data_collection` folder contains example raw files collected, as well as th
 
 ### 2. Internet of Things (Data Analysis and Website)
 
-The `data_analysis` folder contains folders for the 5 days of anxiety inducing events which includes a `data_cleaning.ipynb` used to clean and label the data for each event and the notebook used to perform data analysis. 
+The `data_analysis` folder contains a `data_cleaning.ipynb` used to clean and label the data for each event and the `data_analysis.ipynb` notebook used to perform data analysis. 
 
 #### File descriptions
 
-> * **event/data_cleaning.ipynb**  Notebook used to clean and label data for each anxiety inducing event.
+> * **data_cleaning.ipynb**  Notebook used to clean and label data for each anxiety inducing event.
 > * **data_analysis.ipynb**  Notebook used to perform data analysis, as well as training of 7 predictive models and evaluation of these models.
-> * **Figures**  Folder with figure outputs from the data_analysis notebook.
+> * **figures**  Folder with figure outputs from the data_analysis notebook.
 
 **Dependencies**: numpy, pandas, matplotlib, sklearn, seaborn and scipy.
 
-<p align="left">
-	<a href="https://github.com/rs2416/SensingandIoT/blob/master/data_analysis/data_analysis.ipynb" target="_blank">View the data analysis notebook</a>
-</p>
 
 The `website` folder contains a Google Drive link to a zip file with all the assets and React JavaScript code used to implement the website prototype. To view locally download folder and open command window in the folder and run the following code. 
 
@@ -57,9 +57,6 @@ The `website` folder contains a Google Drive link to a zip file with all the ass
 $ npm install 
 $ npm run start
 ```
-<p align="left">
-	<a href="https://youtu.be/OdvbFIwX5To" target="_blank">View a video of the website</a>
-</p>
 
 ### References
 
